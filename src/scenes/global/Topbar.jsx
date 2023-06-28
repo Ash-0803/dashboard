@@ -15,7 +15,7 @@ export default function Topbar() {
   const colors = tokens(theme.palette.mode);
   const colorMode = useContext(ColorModeContext);
   return (
-    <Box display="flex" justifyContent="space-between" p={2}>
+    <Box display="flex" width="100%" justifyContent="space-between">
       <Box
         display="flex"
         backgroundColor={colors.primary[400]}
